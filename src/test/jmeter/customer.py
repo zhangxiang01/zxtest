@@ -7,7 +7,7 @@ import hashlib
 from lxml import etree
 
 HEADERS = {'ua': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'}
-
+DINGDING_URL= 'https://oapi.dingtalk.com/robot/send?access_token=234a6e42e5ad8ba8bf722bab02814e13f73f69b09f8c2a4b020c601f2a7c914d'
 RESULT_FILE= 'target/jmeter/html/test.html'
 REPORT_URL_FILE= 'http://121.5.113.231/:8080/job/test/HTML_20Report/'
 
